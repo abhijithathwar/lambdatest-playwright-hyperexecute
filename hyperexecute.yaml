@@ -1,0 +1,37 @@
+version: 0.2
+
+runson: linux
+
+concurrency: 2
+autosplit: true
+
+framework:
+  name: playwright
+  version: 1.39.0   # your local Playwright version (optional, but recommended)
+
+testDiscovery:
+  type: dynamic
+  command: npx playwright test --list
+
+env:
+  PLAYGROUND_URL: "https://www.lambdatest.com/selenium-playground"
+
+cache:
+  key: node-cache
+  paths:
+    - node_modules
+
+pre:
+  - npm install
+  - npx playwright install --with-deps
+
+test:
+  - npx playwright test
+
+post:
+  - mkdir -p artifacts
+  - cp -r playwright-report artifacts/
+
+artifacts:
+  - name: playwright-artifacts
+    path: artifacts/

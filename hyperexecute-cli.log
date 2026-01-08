@@ -1,0 +1,157 @@
+{"level":"error","time":"2026-01-08T11:24:49.033Z","caller":"globalconfigvalidator/setup.go:54","msg":"2026-01-08T11:24:49Z    error    ERR::NO::USER     Unable to find LT username.    Unable to parse LT username. Use --user cli flag or LT_USERNAME environment variable"}
+{"level":"error","time":"2026-01-08T11:24:49.037Z","caller":"cmd/bin.go:127","msg":"2026-01-08T11:24:49Z    error    ERR::NO::USER     Unable to find LT username."}
+{"level":"error","time":"2026-01-08T11:26:58.122Z","caller":"globalconfigvalidator/setup.go:54","msg":"2026-01-08T11:26:58Z    error    ERR::NO::USER     Unable to find LT username.    Unable to parse LT username. Use --user cli flag or LT_USERNAME environment variable"}
+{"level":"error","time":"2026-01-08T11:26:58.124Z","caller":"cmd/bin.go:127","msg":"2026-01-08T11:26:58Z    error    ERR::NO::USER     Unable to find LT username."}
+{"level":"error","time":"2026-01-08T11:27:11.575Z","caller":"globalconfigvalidator/setup.go:54","msg":"2026-01-08T11:27:11Z    error    ERR::NO::USER     Unable to find LT username.    Unable to parse LT username. Use --user cli flag or LT_USERNAME environment variable"}
+{"level":"error","time":"2026-01-08T11:27:11.577Z","caller":"cmd/bin.go:127","msg":"2026-01-08T11:27:11Z    error    ERR::NO::USER     Unable to find LT username."}
+{"level":"error","time":"2026-01-08T11:27:49.089Z","caller":"globalconfigvalidator/setup.go:54","msg":"2026-01-08T11:27:49Z    error    ERR::NO::USER     Unable to find LT username.    Unable to parse LT username. Use --user cli flag or LT_USERNAME environment variable"}
+{"level":"error","time":"2026-01-08T11:27:49.092Z","caller":"cmd/bin.go:127","msg":"2026-01-08T11:27:49Z    error    ERR::NO::USER     Unable to find LT username."}
+{"level":"debug","time":"2026-01-08T11:30:39.069Z","caller":"cmd/bin.go:145","msg":"cli os: linux, cli arch: amd64"}
+{"level":"debug","time":"2026-01-08T11:30:40.418Z","caller":"cmd/bin.go:154","msg":"Upstream version details: {Name:cli Min:0.2.265 Max:0.2.323} "}
+{"level":"info","time":"2026-01-08T11:30:40.421Z","caller":"cmd/bin.go:202","msg":"Generating TraceID for tracking request: 01KEENYX939MD5QX73TX28E7DZ \n"}
+{"level":"debug","time":"2026-01-08T11:30:43.993Z","caller":"core/lifecycle.go:107","msg":"Setting environment"}
+{"level":"debug","time":"2026-01-08T11:30:43.994Z","caller":"core/lifecycle.go:110","msg":"Parsing config"}
+{"level":"debug","time":"2026-01-08T11:30:43.995Z","caller":"yamlconfigmanager/setup.go:724","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2026-01-08T11:30:43.995Z","caller":"yamlconfigmanager/setup.go:116","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2026-01-08T11:30:44.896Z","caller":"yamlconfigmanager/setup.go:2137","msg":"Autodetecting test type in files of path : /data"}
+{"level":"debug","time":"2026-01-08T11:30:44.899Z","caller":"yamlconfigmanager/setup.go:2179","msg":"File in which test type is detected - /data/package.json"}
+{"level":"debug","time":"2026-01-08T11:30:44.899Z","caller":"yamlconfigmanager/setup.go:2180","msg":"Pre command in which test type is detected - "}
+{"level":"debug","time":"2026-01-08T11:30:44.899Z","caller":"yamlconfigmanager/setup.go:514","msg":"Automatic test type detected - playwright"}
+{"level":"error","time":"2026-01-08T11:30:44.901Z","caller":"core/lifecycle.go:115","msg":"2026-01-08T11:30:37Z    error    ERR::YML::VAL     Invalid yaml content: Hybrid mode cannot have static discovery, Please explicitly set testDiscovery mode as dynamic or remote!!"}
+{"level":"debug","time":"2026-01-08T11:30:44.902Z","caller":"core/lifecycle.go:59","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2026-01-08T11:30:44.902Z","caller":"core/lifecycle.go:60","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2026-01-08T11:30:44.902Z","caller":"core/lifecycle.go:63","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2026-01-08T11:30:44.903Z","caller":"cmd/bin.go:361","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2026-01-08T11:30:44.903Z","caller":"cmd/bin.go:400","msg":"Exiting application due to error ERR::YML::VAL     Invalid yaml content: Hybrid mode cannot have static discovery, Please explicitly set testDiscovery mode as dynamic or remote!!"}
+{"level":"debug","time":"2026-01-08T11:32:21.256Z","caller":"cmd/bin.go:145","msg":"cli os: linux, cli arch: amd64"}
+{"level":"debug","time":"2026-01-08T11:32:22.203Z","caller":"cmd/bin.go:154","msg":"Upstream version details: {Name:cli Min:0.2.265 Max:0.2.323} "}
+{"level":"info","time":"2026-01-08T11:32:22.206Z","caller":"cmd/bin.go:202","msg":"Generating TraceID for tracking request: 01KEEP21QMF3E9WPRFCZPME9BK \n"}
+{"level":"debug","time":"2026-01-08T11:32:25.987Z","caller":"core/lifecycle.go:107","msg":"Setting environment"}
+{"level":"debug","time":"2026-01-08T11:32:25.988Z","caller":"core/lifecycle.go:110","msg":"Parsing config"}
+{"level":"debug","time":"2026-01-08T11:32:25.989Z","caller":"yamlconfigmanager/setup.go:724","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2026-01-08T11:32:25.990Z","caller":"yamlconfigmanager/setup.go:116","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2026-01-08T11:32:27.213Z","caller":"yamlconfigmanager/setup.go:2137","msg":"Autodetecting test type in files of path : /data"}
+{"level":"debug","time":"2026-01-08T11:32:27.215Z","caller":"yamlconfigmanager/setup.go:2179","msg":"File in which test type is detected - /data/package.json"}
+{"level":"debug","time":"2026-01-08T11:32:27.216Z","caller":"yamlconfigmanager/setup.go:2180","msg":"Pre command in which test type is detected - npx playwright install --with-deps"}
+{"level":"debug","time":"2026-01-08T11:32:27.216Z","caller":"yamlconfigmanager/setup.go:514","msg":"Automatic test type detected - playwright"}
+{"level":"error","time":"2026-01-08T11:32:27.219Z","caller":"core/lifecycle.go:115","msg":"2026-01-08T11:32:20Z    error    ERR::YML::VAL     Invalid yaml content: Invalid value for type provided under testDiscovery directive"}
+{"level":"debug","time":"2026-01-08T11:32:27.220Z","caller":"core/lifecycle.go:59","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2026-01-08T11:32:27.220Z","caller":"core/lifecycle.go:60","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2026-01-08T11:32:27.221Z","caller":"core/lifecycle.go:63","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2026-01-08T11:32:27.221Z","caller":"cmd/bin.go:361","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2026-01-08T11:32:27.221Z","caller":"cmd/bin.go:400","msg":"Exiting application due to error ERR::YML::VAL     Invalid yaml content: Invalid value for type provided under testDiscovery directive"}
+{"level":"debug","time":"2026-01-08T11:33:53.858Z","caller":"cmd/bin.go:145","msg":"cli os: linux, cli arch: amd64"}
+{"level":"debug","time":"2026-01-08T11:33:54.648Z","caller":"cmd/bin.go:154","msg":"Upstream version details: {Name:cli Min:0.2.265 Max:0.2.323} "}
+{"level":"info","time":"2026-01-08T11:33:54.651Z","caller":"cmd/bin.go:202","msg":"Generating TraceID for tracking request: 01KEEP4W35ES2ZZV88BQ2F5RR4 \n"}
+{"level":"debug","time":"2026-01-08T11:33:59.009Z","caller":"core/lifecycle.go:107","msg":"Setting environment"}
+{"level":"debug","time":"2026-01-08T11:33:59.011Z","caller":"core/lifecycle.go:110","msg":"Parsing config"}
+{"level":"debug","time":"2026-01-08T11:33:59.012Z","caller":"yamlconfigmanager/setup.go:724","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2026-01-08T11:33:59.012Z","caller":"yamlconfigmanager/setup.go:116","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2026-01-08T11:34:00.060Z","caller":"yamlconfigmanager/setup.go:2137","msg":"Autodetecting test type in files of path : /data"}
+{"level":"debug","time":"2026-01-08T11:34:00.063Z","caller":"yamlconfigmanager/setup.go:2179","msg":"File in which test type is detected - /data/package.json"}
+{"level":"debug","time":"2026-01-08T11:34:00.064Z","caller":"yamlconfigmanager/setup.go:2180","msg":"Pre command in which test type is detected - npx playwright install --with-deps"}
+{"level":"debug","time":"2026-01-08T11:34:00.064Z","caller":"yamlconfigmanager/setup.go:514","msg":"Automatic test type detected - playwright"}
+{"level":"error","time":"2026-01-08T11:34:00.067Z","caller":"core/lifecycle.go:115","msg":"2026-01-08T11:33:52Z    error    ERR::YML::VAL     Invalid yaml content: Invalid value for type provided under testDiscovery directive"}
+{"level":"debug","time":"2026-01-08T11:34:00.068Z","caller":"core/lifecycle.go:59","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2026-01-08T11:34:00.068Z","caller":"core/lifecycle.go:60","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2026-01-08T11:34:00.068Z","caller":"core/lifecycle.go:63","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2026-01-08T11:34:00.068Z","caller":"cmd/bin.go:361","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2026-01-08T11:34:00.069Z","caller":"cmd/bin.go:400","msg":"Exiting application due to error ERR::YML::VAL     Invalid yaml content: Invalid value for type provided under testDiscovery directive"}
+{"level":"debug","time":"2026-01-08T11:35:18.871Z","caller":"cmd/bin.go:145","msg":"cli os: linux, cli arch: amd64"}
+{"level":"debug","time":"2026-01-08T11:35:19.605Z","caller":"cmd/bin.go:154","msg":"Upstream version details: {Name:cli Min:0.2.265 Max:0.2.323} "}
+{"level":"info","time":"2026-01-08T11:35:19.608Z","caller":"cmd/bin.go:202","msg":"Generating TraceID for tracking request: 01KEEP7F8WTYEDHBWFC6P7JT54 \n"}
+{"level":"debug","time":"2026-01-08T11:35:24.828Z","caller":"core/lifecycle.go:107","msg":"Setting environment"}
+{"level":"debug","time":"2026-01-08T11:35:24.831Z","caller":"core/lifecycle.go:110","msg":"Parsing config"}
+{"level":"debug","time":"2026-01-08T11:35:24.832Z","caller":"yamlconfigmanager/setup.go:724","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2026-01-08T11:35:24.832Z","caller":"yamlconfigmanager/setup.go:116","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2026-01-08T11:35:26.000Z","caller":"yamlconfigmanager/setup.go:2137","msg":"Autodetecting test type in files of path : /data"}
+{"level":"debug","time":"2026-01-08T11:35:26.002Z","caller":"yamlconfigmanager/setup.go:2179","msg":"File in which test type is detected - /data/package.json"}
+{"level":"debug","time":"2026-01-08T11:35:26.002Z","caller":"yamlconfigmanager/setup.go:2180","msg":"Pre command in which test type is detected - npx playwright install --with-deps"}
+{"level":"debug","time":"2026-01-08T11:35:26.002Z","caller":"yamlconfigmanager/setup.go:514","msg":"Automatic test type detected - playwright"}
+{"level":"error","time":"2026-01-08T11:35:26.005Z","caller":"core/lifecycle.go:115","msg":"2026-01-08T11:35:18Z    error    ERR::YML::VAL     Invalid yaml content: type key is required under testDiscovery directive in auto split mode for Version: 0.1"}
+{"level":"debug","time":"2026-01-08T11:35:26.006Z","caller":"core/lifecycle.go:59","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2026-01-08T11:35:26.006Z","caller":"core/lifecycle.go:60","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2026-01-08T11:35:26.006Z","caller":"core/lifecycle.go:63","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2026-01-08T11:35:26.006Z","caller":"cmd/bin.go:361","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2026-01-08T11:35:26.006Z","caller":"cmd/bin.go:400","msg":"Exiting application due to error ERR::YML::VAL     Invalid yaml content: type key is required under testDiscovery directive in auto split mode for Version: 0.1"}
+{"level":"debug","time":"2026-01-08T11:36:10.996Z","caller":"cmd/bin.go:145","msg":"cli os: linux, cli arch: amd64"}
+{"level":"debug","time":"2026-01-08T11:36:11.775Z","caller":"cmd/bin.go:154","msg":"Upstream version details: {Name:cli Min:0.2.265 Max:0.2.323} "}
+{"level":"info","time":"2026-01-08T11:36:11.778Z","caller":"cmd/bin.go:202","msg":"Generating TraceID for tracking request: 01KEEP92308FB2J7AGN1TQ1J3F \n"}
+{"level":"debug","time":"2026-01-08T11:36:14.379Z","caller":"core/lifecycle.go:107","msg":"Setting environment"}
+{"level":"debug","time":"2026-01-08T11:36:14.380Z","caller":"core/lifecycle.go:110","msg":"Parsing config"}
+{"level":"debug","time":"2026-01-08T11:36:14.381Z","caller":"yamlconfigmanager/setup.go:724","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2026-01-08T11:36:14.381Z","caller":"yamlconfigmanager/setup.go:116","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2026-01-08T11:36:15.501Z","caller":"yamlconfigmanager/setup.go:2137","msg":"Autodetecting test type in files of path : /data"}
+{"level":"debug","time":"2026-01-08T11:36:15.503Z","caller":"yamlconfigmanager/setup.go:2179","msg":"File in which test type is detected - /data/package.json"}
+{"level":"debug","time":"2026-01-08T11:36:15.503Z","caller":"yamlconfigmanager/setup.go:2180","msg":"Pre command in which test type is detected - npx playwright install --with-deps"}
+{"level":"debug","time":"2026-01-08T11:36:15.504Z","caller":"yamlconfigmanager/setup.go:514","msg":"Automatic test type detected - playwright"}
+{"level":"error","time":"2026-01-08T11:36:15.507Z","caller":"core/lifecycle.go:115","msg":"2026-01-08T11:36:10Z    error    ERR::YML::VAL     Invalid yaml content: Invalid value for type provided under testDiscovery directive"}
+{"level":"debug","time":"2026-01-08T11:36:15.508Z","caller":"core/lifecycle.go:59","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2026-01-08T11:36:15.508Z","caller":"core/lifecycle.go:60","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2026-01-08T11:36:15.508Z","caller":"core/lifecycle.go:63","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2026-01-08T11:36:15.509Z","caller":"cmd/bin.go:400","msg":"Exiting application due to error ERR::YML::VAL     Invalid yaml content: Invalid value for type provided under testDiscovery directive"}
+{"level":"debug","time":"2026-01-08T11:38:21.607Z","caller":"cmd/bin.go:145","msg":"cli os: linux, cli arch: amd64"}
+{"level":"debug","time":"2026-01-08T11:38:22.471Z","caller":"cmd/bin.go:154","msg":"Upstream version details: {Name:cli Min:0.2.265 Max:0.2.323} "}
+{"level":"info","time":"2026-01-08T11:38:22.473Z","caller":"cmd/bin.go:202","msg":"Generating TraceID for tracking request: 01KEEPD1MSC9YJP62T4MZ9M1W4 \n"}
+{"level":"debug","time":"2026-01-08T11:38:25.819Z","caller":"core/lifecycle.go:107","msg":"Setting environment"}
+{"level":"debug","time":"2026-01-08T11:38:25.820Z","caller":"core/lifecycle.go:110","msg":"Parsing config"}
+{"level":"debug","time":"2026-01-08T11:38:25.821Z","caller":"yamlconfigmanager/setup.go:724","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2026-01-08T11:38:25.821Z","caller":"yamlconfigmanager/setup.go:116","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2026-01-08T11:38:27.042Z","caller":"yamlconfigmanager/setup.go:2137","msg":"Autodetecting test type in files of path : /data"}
+{"level":"debug","time":"2026-01-08T11:38:27.044Z","caller":"yamlconfigmanager/setup.go:2179","msg":"File in which test type is detected - /data/package.json"}
+{"level":"debug","time":"2026-01-08T11:38:27.044Z","caller":"yamlconfigmanager/setup.go:2180","msg":"Pre command in which test type is detected - npx playwright install --with-deps"}
+{"level":"debug","time":"2026-01-08T11:38:27.044Z","caller":"yamlconfigmanager/setup.go:514","msg":"Automatic test type detected - playwright"}
+{"level":"error","time":"2026-01-08T11:38:27.047Z","caller":"core/lifecycle.go:115","msg":"2026-01-08T11:38:20Z    error    ERR::YML::VAL     Invalid yaml content: Invalid value for type provided under testDiscovery directive"}
+{"level":"debug","time":"2026-01-08T11:38:27.047Z","caller":"core/lifecycle.go:59","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2026-01-08T11:38:27.047Z","caller":"core/lifecycle.go:60","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2026-01-08T11:38:27.047Z","caller":"core/lifecycle.go:63","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2026-01-08T11:38:27.048Z","caller":"cmd/bin.go:361","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2026-01-08T11:38:27.048Z","caller":"cmd/bin.go:400","msg":"Exiting application due to error ERR::YML::VAL     Invalid yaml content: Invalid value for type provided under testDiscovery directive"}
+{"level":"debug","time":"2026-01-08T11:39:25.817Z","caller":"cmd/bin.go:145","msg":"cli os: linux, cli arch: amd64"}
+{"level":"debug","time":"2026-01-08T11:39:26.638Z","caller":"cmd/bin.go:154","msg":"Upstream version details: {Name:cli Min:0.2.265 Max:0.2.323} "}
+{"level":"info","time":"2026-01-08T11:39:26.641Z","caller":"cmd/bin.go:202","msg":"Generating TraceID for tracking request: 01KEEPF0AR7Y6TK9QPBPG6S7Y0 \n"}
+{"level":"debug","time":"2026-01-08T11:39:30.125Z","caller":"core/lifecycle.go:107","msg":"Setting environment"}
+{"level":"debug","time":"2026-01-08T11:39:30.127Z","caller":"core/lifecycle.go:110","msg":"Parsing config"}
+{"level":"debug","time":"2026-01-08T11:39:30.128Z","caller":"yamlconfigmanager/setup.go:724","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2026-01-08T11:39:30.128Z","caller":"yamlconfigmanager/setup.go:116","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2026-01-08T11:39:31.247Z","caller":"yamlconfigmanager/setup.go:2137","msg":"Autodetecting test type in files of path : /data"}
+{"level":"debug","time":"2026-01-08T11:39:31.248Z","caller":"yamlconfigmanager/setup.go:2179","msg":"File in which test type is detected - /data/package.json"}
+{"level":"debug","time":"2026-01-08T11:39:31.249Z","caller":"yamlconfigmanager/setup.go:2180","msg":"Pre command in which test type is detected - npx playwright install --with-deps"}
+{"level":"debug","time":"2026-01-08T11:39:31.249Z","caller":"yamlconfigmanager/setup.go:514","msg":"Automatic test type detected - playwright"}
+{"level":"error","time":"2026-01-08T11:39:31.251Z","caller":"core/lifecycle.go:115","msg":"2026-01-08T11:39:24Z    error    ERR::YML::VAL     Invalid yaml content: framework name is required under framework directive Version: 0.2"}
+{"level":"debug","time":"2026-01-08T11:39:31.252Z","caller":"core/lifecycle.go:59","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2026-01-08T11:39:31.252Z","caller":"core/lifecycle.go:60","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2026-01-08T11:39:31.252Z","caller":"core/lifecycle.go:63","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2026-01-08T11:39:31.252Z","caller":"cmd/bin.go:361","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2026-01-08T11:39:31.252Z","caller":"cmd/bin.go:400","msg":"Exiting application due to error ERR::YML::VAL     Invalid yaml content: framework name is required under framework directive Version: 0.2"}
+{"level":"debug","time":"2026-01-08T11:40:18.457Z","caller":"cmd/bin.go:145","msg":"cli os: linux, cli arch: amd64"}
+{"level":"debug","time":"2026-01-08T11:40:19.261Z","caller":"cmd/bin.go:154","msg":"Upstream version details: {Name:cli Min:0.2.265 Max:0.2.323} "}
+{"level":"info","time":"2026-01-08T11:40:19.262Z","caller":"cmd/bin.go:202","msg":"Generating TraceID for tracking request: 01KEEPGKMK9E0K296DFRZ0EQWK \n"}
+{"level":"debug","time":"2026-01-08T11:40:21.428Z","caller":"core/lifecycle.go:107","msg":"Setting environment"}
+{"level":"debug","time":"2026-01-08T11:40:21.429Z","caller":"core/lifecycle.go:110","msg":"Parsing config"}
+{"level":"debug","time":"2026-01-08T11:40:21.430Z","caller":"yamlconfigmanager/setup.go:724","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2026-01-08T11:40:21.431Z","caller":"yamlconfigmanager/setup.go:116","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2026-01-08T11:40:22.651Z","caller":"yamlconfigmanager/setup.go:2137","msg":"Autodetecting test type in files of path : /data"}
+{"level":"debug","time":"2026-01-08T11:40:22.653Z","caller":"yamlconfigmanager/setup.go:2179","msg":"File in which test type is detected - /data/package.json"}
+{"level":"debug","time":"2026-01-08T11:40:22.653Z","caller":"yamlconfigmanager/setup.go:2180","msg":"Pre command in which test type is detected - npx playwright install --with-deps"}
+{"level":"debug","time":"2026-01-08T11:40:22.653Z","caller":"yamlconfigmanager/setup.go:514","msg":"Automatic test type detected - playwright"}
+{"level":"debug","time":"2026-01-08T11:40:22.657Z","caller":"yamlconfigmanager/setup.go:546","msg":"Tunnel: false"}
+{"level":"info","time":"2026-01-08T11:40:22.657Z","caller":"models/HypertestYamlConfig.go:902","msg":"\nExecution Plan"}
+{"level":"info","time":"2026-01-08T11:40:22.657Z","caller":"models/HypertestYamlConfig.go:703","msg":"Mode:    autosplit"}
+{"level":"info","time":"2026-01-08T11:40:22.658Z","caller":"models/HypertestYamlConfig.go:763","msg":"Runson:    linux"}
+{"level":"info","time":"2026-01-08T11:40:22.658Z","caller":"models/HypertestYamlConfig.go:771","msg":"Concurrency:    2"}
+{"level":"info","time":"2026-01-08T11:40:22.659Z","caller":"models/HypertestYamlConfig.go:788","msg":"Framework:"}
+{"level":"info","time":"2026-01-08T11:40:22.659Z","caller":"models/HypertestYamlConfig.go:789","msg":"    Name:    playwright"}
+{"level":"info","time":"2026-01-08T11:40:22.659Z","caller":"models/HypertestYamlConfig.go:806","msg":"    Discovery Mode:    local"}
+{"level":"info","time":"2026-01-08T11:40:22.659Z","caller":"models/HypertestYamlConfig.go:824","msg":"    discoveryType:    "}
+{"level":"info","time":"2026-01-08T11:40:22.660Z","caller":"models/HypertestYamlConfig.go:835","msg":"Report:    disabled"}
+{"level":"info","time":"2026-01-08T11:40:22.660Z","caller":"models/HypertestYamlConfig.go:915","msg":""}
+{"level":"debug","time":"2026-01-08T11:40:22.661Z","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2026-01-08T11:40:22.661Z","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2026-01-08T11:40:28.979Z","caller":"frameworks/framework.go:62","msg":"version: 0.2"}
+{"level":"error","time":"2026-01-08T11:40:28.979Z","caller":"core/lifecycle.go:266","msg":"2026-01-08T11:40:17Z    error    ERR::YML::VAL     Invalid yaml content: framework playwright currently not supported    Error while detecting framework:"}
+{"level":"debug","time":"2026-01-08T11:40:28.980Z","caller":"core/lifecycle.go:59","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2026-01-08T11:40:28.980Z","caller":"core/lifecycle.go:60","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2026-01-08T11:40:28.980Z","caller":"core/lifecycle.go:63","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2026-01-08T11:40:28.981Z","caller":"cmd/bin.go:361","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2026-01-08T11:40:28.981Z","caller":"cmd/bin.go:400","msg":"Exiting application due to error ERR::YML::VAL     Invalid yaml content: framework playwright currently not supported"}
