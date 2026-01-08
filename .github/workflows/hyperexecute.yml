@@ -1,6 +1,5 @@
-name: HyperExecute Playwright Tests
+name: Run Playwright Tests on LambdaTest
 
-# Trigger on push to main branch or manually
 on:
   push:
     branches:
@@ -8,32 +7,26 @@ on:
   workflow_dispatch:
 
 jobs:
-  run-hyperexecute:
+  test:
     runs-on: ubuntu-latest
     env:
       PLAYGROUND_URL: "https://www.lambdatest.com/selenium-playground"
       LT_USERNAME: ${{ secrets.LT_USERNAME }}
       LT_ACCESS_KEY: ${{ secrets.LT_ACCESS_KEY }}
-
+    
     steps:
-      # 1️⃣ Checkout your repository
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-      # 2️⃣ Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '20'
 
-      # 3️⃣ Install dependencies
       - name: Install dependencies
         run: npm install
 
-      # 4️⃣ Install Playwright browsers
       - name: Install Playwright browsers
         run: npx playwright install --with-deps
 
-      # 5️⃣ Run HyperExecute
-      - name: Run HyperExecute
-        run: npx hyperexecute --config hyperexecute.yaml
+      - name: Run Playwright tests
+        run: npx playwright test
