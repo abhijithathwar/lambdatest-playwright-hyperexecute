@@ -8,7 +8,7 @@ test('Simple Form Demo Validation', async ({ page }) => {
 
   await expect(page).toHaveURL(/simple-form-demo/);
 
-  await page.locator('input[placeholder="Please enter your message"]').fill(message);
+  await page.getByPlaceholder('Please enter your message').fill(message)
   await page.locator('#showInput').click();
 
   const displayed = await page.locator('#message').textContent();
