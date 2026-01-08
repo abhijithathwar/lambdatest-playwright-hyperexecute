@@ -8,7 +8,7 @@ test('Input Form Submit Validation', async ({ page }) => {
   const validationMessage = await page.locator('#name').evaluate(el => el.validationMessage);
   expect(validationMessage).toBe("Please fill in this field.");
 
-  const password = "Password123";
+  const password = "Password1234";
 
   await page.fill('#name', 'Abhijit');
   await page.locator("xpath=//input[@id='inputEmail4']").fill('abhi@test.com');
