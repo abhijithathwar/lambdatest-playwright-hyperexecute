@@ -6,7 +6,7 @@ test('Input Form Submit Validation', async ({ page }) => {
 
   await page.getByRole('button', { name: 'Submit' }).click();
   const validationMessage = await page.locator('#name').evaluate(el => el.validationMessage);
-  expect(validationMessage).toBe("Please fill in this field.");
+  expect(validationMessage).toBe("Please fill out this field.");
 
   const password = "Password1234";
 
