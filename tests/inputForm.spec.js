@@ -6,21 +6,23 @@ test('Input Form Submit Validation', async ({ page }) => {
 
   await page.getByRole('button', { name: 'Submit' }).click();
   const validationMessage = await page.locator('#name').evaluate(el => el.validationMessage);
-  expect(validationMessage).toBe("Please fill out this field.");
+  expect(validationMessage).toBe("Please fill in this field.");
 
-  await page.fill('#name', 'John Doe');
-  await page.fill('#email', 'john@test.com');
-  await page.fill('#password', 'Password123');
+  const password = "Password123";
+
+  await page.fill('#name', 'Abhijit');
+  await page.locator("xpath=//input[@id='inputEmail4']").fill('abhi@test.com');
+  await page.getByPlaceholder('Password').fill(password)
   await page.fill('#company', 'LambdaTest');
-  await page.fill('#website', 'https://example.com');
-  await page.selectOption('select[name="country"]', { label: 'United States' });
-  await page.fill('#city', 'New York');
-  await page.fill('#address1', 'Street 1');
-  await page.fill('#address2', 'Street 2');
-  await page.fill('#state', 'NY');
-  await page.fill('#zip', '10001');
+  await page.fill('#websitename', 'https://test.com');
+  await page.selectOption('select[name="country"]', { label: 'India' });
+  await page.fill('#inputCity', 'Bangalore');
+  await page.fill('#inputAddress1', 'Street 1');
+  await page.fill('#inputAddress2', 'Street 2');
+  await page.fill('#inputState', 'Karnataka');
+  await page.fill('#inputZip', '100010');
 
-  await page.click("button[type='submit']");
+  await page.getByRole('button', { name: 'Submit' }).click();
 
   await expect(page.locator('.success-msg'))
     .toHaveText('Thanks for contacting us, we will get back to you shortly.');
