@@ -4,7 +4,7 @@ test('Input Form Submit Validation', async ({ page }) => {
   await page.goto('https://www.lambdatest.com/selenium-playground');
   await page.click("text=Input Form Submit");
 
-  await page.click("button[type='submit']");
+  await page.getByRole('button', { name: 'Submit' }).click();
   const validationMessage = await page.locator('#name').evaluate(el => el.validationMessage);
   expect(validationMessage).toBe("Please fill out this field.");
 
